@@ -1,30 +1,46 @@
-// var fullName;
+// document.writeln("Nurul Khoiriyah");
+// document.writeln("</br>");
+// document.writeln("Nurul Khoiriyah");
+// document.writeln("</br>");
+// document.writeln("Nurul Khoiriyah");
+// document.writeln("</br>");
+// document.writeln("Nurul Khoiriyah");
+// document.writeln("</br>");
+// document.writeln("Nurul Khoiriyah");
+// document.writeln("</br>");
 
-// fullName = "nurul";
-// fullName = "uyong";
+var fullName;
+var firstName;
+var middleName;
+var lastName;
 
-var firstName = "nurul";
-var lastName = "khoiriyah";
-var fullName = "nurul" + " " + "cantik" + " " + "khoiriyah";
+fullName = "nurul";
+fullName = "nunu";
+fullName = "uyong";
 
-document.writeln(fullName);
-document.writeln("</br>");
-document.writeln(fullName);
-document.writeln("</br>");
-document.writeln(fullName);
-document.writeln("</br>");
+firstName = "cantik";
+middleName = "banget";
+lastName = "parah";
 
-var fullName = "nunu";
+var namaPertama = "nunurul";
+var namaTerakhir = "khoiriyah";
+var namaLengkap = "nurul" + "" + "khoiriyah";
 
-let nickName = "uyong";
-document.writeln(nickName);
+document.writeln(namaPertama);
 document.writeln("</br>");
-document.writeln(nickName);
-document.writeln("</br>");
-document.writeln(nickName);
+var namaPertama = "nurul";
+document.writeln(namaPertama);
 document.writeln("</br>");
 
-const application = "Belajar javascript dasar";
-// application = "Gak mau belajar";
+let namaSaya = "nurul Khoiriyah";
+
+document.writeln(namaSaya);
+document.writeln("</br>");
+document.writeln(namaSaya);
+document.writeln("</br>");
+
+const application = "Belajar Javascript";
+
+// application = "Belajar aja sana";
 
 document.writeln(application);

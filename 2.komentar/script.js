@@ -1,9 +1,6 @@
-// ini komentar 1 baris
-document.writeln("<p>Halo</p>");
+// ini komentar satu baris
+document.writeln("<p>Hello World</p>");
 
-/* 
-ini komentar denngan banyak baris 
-coba aja
-*/
-
-document.writeln("<p>Hai</p>");
+/* ini komentar lebih dari satu baris
+   coba aja */
+document.writeln("<p>Hello Dunia</p>");

@@ -1,17 +1,19 @@
 document.writeln("Nurul Khoiriyah");
 document.writeln("</br>");
-document.writeln("nunu");
+document.writeln("nunurul");
 document.writeln("</br>");
-document.writeln("nama : " + "nurul");
+document.writeln("nunurul " + "github");
 document.writeln("</br>");
-document.writeln("sunscreen : " + "facetology");
+document.writeln("saya " + "adalah " + "nurul");
 
 document.writeln("</br>");
 document.writeln("</br>");
 document.writeln("</br>");
 
-document.writeln("<textarea cols=100 rows=10>");
-document.write("nurul\n khoiriyah \t nunu");
-document.write(" 'halo 'apa kabar '");
-document.write(' "merah \\ putih "');
+document.writeln("<textarea>");
+document.writeln("halo\n semuanya\n apa kabar");
+document.writeln("aku \t mau makan aja");
+document.writeln("' jadi apa nih '");
+document.writeln(' " maau makan burger "');
+document.writeln("\\home \\halo");
 document.writeln("</textarea>");
