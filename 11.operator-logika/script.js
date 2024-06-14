@@ -1,8 +1,8 @@
 const nilaiUjian = 80;
-const nilaiAbsensi = 87;
+const nilaiAbsensi = 77;
 
 const hasilUjian = nilaiUjian >= 75;
-const hasilAbsensi = nilaiAbsensi >= 75;
+const hasilAbsesnsi = nilaiAbsensi >= 75;
 
-const result = hasilAbsensi && hasilUjian;
-document.writeln("<p>" + result + "</p>");
+const hasilAkhir = hasilUjian && hasilAbsesnsi;
+document.writeln(hasilAkhir);

@@ -1,12 +1,12 @@
 const data = {
-  nama: "nurul",
-  umur: 22,
+  firstname: "nurul",
+  lastname: "khoiriyah",
 };
 
-if ("nama" in data) {
-  document.writeln(`Hello ${data.nama}`);
+if ("firstname" in data) {
+  document.writeln(`<p>Halo ${data.firstname} ${data.lastname}</p>`);
 } else {
-  document.writeln(`Hello`);
+  document.writeln(`<p>namanya nggak ada</p>`);
 }
 
 //
@@ -32,3 +32,18 @@ if (hasil) {
 } else {
   document.writeln("<p>Iya</p>");
 }
+
+//
+const cek = [undefined, null, "hai", "jelek"];
+const result = 1 in cek;
+
+document.writeln(`<p>${result}</p>`);
+
+const wow = {
+  nama: "nunu",
+  umur: 22,
+  negara: "indonesia",
+};
+
+const hah = "nama" in wow;
+document.writeln(`<p>${hah}</p>`);

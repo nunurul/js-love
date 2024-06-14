@@ -1,24 +1,26 @@
 const object = {};
 
-object["nama"] = "Nurul";
-object["alamat"] = "Indonesia";
+object["nama"] = "nurul";
 object["umur"] = 22;
-object["pacar"] = "single";
-
-delete object["pacar"];
+object["negara"] = "indonesia";
+object["status"] = "single";
 
 console.table(object);
 
-const object1 = {
+delete object["status"];
+
+console.table(object);
+
+const biodata = {
   nama: "nurul khoiriyah",
-  alamat: "Indonesia",
-  umur: 20,
-  "cita cita": "Pemrogrammer sukses",
+  umur: 22,
+  negara: "Indonesia",
+  "cita cita": "programmer",
 };
 
-console.table(object1);
+console.table(biodata);
 
-console.info(`Nama : ${object1.nama}`);
-console.info(`Alamat : ${object1.alamat}`);
-console.info(`Umur : ${object1.umur}`);
-console.info(`Cita cita : ${object1["cita cita"]}`);
+console.info(biodata.nama);
+console.info(biodata.umur);
+console.info(biodata.negara);
+console.info(biodata["cita cita"]);

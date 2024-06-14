@@ -1,11 +1,10 @@
-let result = 1 + 2;
-document.writeln("<p> 1 + 2 = " + result + "</p>");
-let originalResult = result;
+let result = 3;
 
-result -= 1;
-document.writeln("<p>" + originalResult + " - 1 = " + result + "</p>");
-originalResult = result;
+result += 4;
+document.writeln("<p> 3 + 4 = " + result + "</p>");
+
+result -= 5;
+document.writeln("<p> 7 - 5 = " + result + "</p>");
 
 result *= 2;
-document.writeln("<p>" + originalResult + " x 2 = " + result + "</p>");
-originalResult = result;
+document.writeln("<p> 2 * 2 = " + result + "</p>");

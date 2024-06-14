@@ -7,3 +7,10 @@ document.writeln("<br />");
 document.writeln(0xff);
 document.writeln("<br />");
 document.writeln(0o11);
+
+document.writeln("</br>");
+document.writeln(100);
+document.writeln("</br>");
+document.writeln(100.22);
+document.writeln("</br>");
+document.writeln(0b10101);

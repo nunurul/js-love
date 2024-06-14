@@ -1,9 +1,11 @@
-const nilaiUjian = 70;
+const nilaiUjian = 75;
 
-if (nilaiUjian > 80) {
-  document.writeln(`<p>Good Job</p>`);
-} else if (nilaiUjian > 60) {
-  document.writeln(`<p>Not Bad</p>`);
+if (nilaiUjian > 90) {
+  document.writeln("SELAMAT NILAI KAMU A+");
+} else if (nilaiUjian > 80) {
+  document.writeln("SELAMAT NILAI KAMU A-");
+} else if (nilaiUjian > 70) {
+  document.writeln("SELAMAT NILAI KAMU B");
 } else {
-  document.writeln(`<p>Try Again Next Year</p>`);
+  document.writeln("Maaf kamu tidak lulus");
 }

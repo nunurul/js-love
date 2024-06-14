@@ -1,13 +1,13 @@
-// alert("Halooo");
+// alert("haloo");
 
-// const nama = prompt("masukan nama");
-// alert(`Halooo ${nama}`);
+// const names = prompt("siapa nama anda?");
+// alert(`Halo ${names}`);
 
-const tanya = confirm(`Yakin mau masuk`);
+const masuk = confirm("apakah anda yakin ingin masuk ?");
 
-if (tanya) {
-  const halo = prompt("Masukan nama?");
-  alert(`Haloo ${halo}`);
+if (masuk) {
+  const nama = prompt("masukan namamu?");
+  alert(`Haloo ${nama}`);
 } else {
-  alert("Bye Bye");
+  alert("Bye");
 }

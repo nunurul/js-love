@@ -1,9 +1,9 @@
-let hasil = null;
+let nama = null;
 
-if (hasil === undefined) {
-  alert("UNDIFENED");
-} else if (hasil === null) {
-  alert("NULL");
+if (nama === undefined) {
+  document.writeln("undefined");
+} else if (nama === null) {
+  document.writeln("null");
 } else {
-  alert("Hasilnya ada");
+  document.writeln("lengkap");
 }

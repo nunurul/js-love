@@ -1,4 +1,4 @@
-const nilai = "E";
+const nilai = "D";
 
 switch (nilai) {
   case "A":
@@ -6,11 +6,12 @@ switch (nilai) {
     break;
   case "B":
   case "C":
-    document.writeln("harus usaha lagi");
+    document.writeln("anda lulus");
     break;
   case "D":
-    document.writeln("maaf kamu gagal");
+    document.writeln("terus berjuang");
     break;
   default:
-    document.writeln("sepertinya kamu salah jurusan");
+    document.writeln("anda salah jurusan");
+    break;
 }

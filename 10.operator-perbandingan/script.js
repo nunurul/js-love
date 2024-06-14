@@ -1,7 +1,7 @@
-let result = 5 == "5";
+let result = 5 > 7;
 document.writeln("<p>" + result + "</p>");
 
-result = 5 === "5";
+result = 5 >= 7;
 document.writeln("<p>" + result + "</p>");
 
 result = 5 < 7;
@@ -10,14 +10,14 @@ document.writeln("<p>" + result + "</p>");
 result = 5 <= 7;
 document.writeln("<p>" + result + "</p>");
 
-result = 5 > 7;
+result = 5 == 7;
 document.writeln("<p>" + result + "</p>");
 
-result = 5 >= 7;
+result = 5 === 7;
 document.writeln("<p>" + result + "</p>");
 
 result = 5 != 7;
 document.writeln("<p>" + result + "</p>");
 
-result = 5 !== 5;
+result = 5 !== 7;
 document.writeln("<p>" + result + "</p>");

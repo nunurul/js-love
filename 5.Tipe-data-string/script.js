@@ -1,19 +1,22 @@
 document.writeln("Nurul Khoiriyah");
 document.writeln("</br>");
 document.writeln("nunurul");
+
 document.writeln("</br>");
-document.writeln("nunurul " + "github");
+document.writeln("nunu " + "namanya");
 document.writeln("</br>");
-document.writeln("saya " + "adalah " + "nurul");
+document.writeln("nama aku : " + "nurul");
 
 document.writeln("</br>");
 document.writeln("</br>");
 document.writeln("</br>");
 
-document.writeln("<textarea>");
-document.writeln("halo\n semuanya\n apa kabar");
-document.writeln("aku \t mau makan aja");
-document.writeln("' jadi apa nih '");
-document.writeln(' " maau makan burger "');
-document.writeln("\\home \\halo");
+document.writeln("<textarea cols=100 rows=30 > ");
+document.writeln("eh kocak");
+document.writeln("\nhai");
+document.writeln("\t kenapa aneh lu");
+document.writeln("\\ au ah gaje");
+document.writeln("'sok keren eww '");
+document.writeln('"lu lebih gaje ga sih "');
+
 document.writeln("</textarea>");

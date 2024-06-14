@@ -14,7 +14,7 @@ var firstName;
 var middleName;
 var lastName;
 
-fullName = "nurul";
+fullName = "nunu";
 fullName = "nunu";
 fullName = "uyong";
 
@@ -22,25 +22,25 @@ firstName = "cantik";
 middleName = "banget";
 lastName = "parah";
 
-var namaPertama = "nunurul";
-var namaTerakhir = "khoiriyah";
-var namaLengkap = "nurul" + "" + "khoiriyah";
+var namaAwal = "nurul";
+var namaAkhir = "khoiriyah";
+var namaLengkap = "nurul" + " " + "khoiriyah";
 
-document.writeln(namaPertama);
+document.writeln(namaAwal);
 document.writeln("</br>");
-var namaPertama = "nurul";
-document.writeln(namaPertama);
-document.writeln("</br>");
-
-let namaSaya = "nurul Khoiriyah";
-
-document.writeln(namaSaya);
-document.writeln("</br>");
-document.writeln(namaSaya);
+namaAwal = "nunu";
+document.writeln(namaAwal);
 document.writeln("</br>");
 
-const application = "Belajar Javascript";
+let namaPangjang = "nama saya nurul khoiriyah";
 
-// application = "Belajar aja sana";
+document.writeln(namaPangjang);
+document.writeln("</br>");
+document.writeln(namaPangjang);
+document.writeln("</br>");
+
+const application = "Belajar js dari awal";
+
+// application = "kocak ga bisa diubah ini const";
 
 document.writeln(application);
