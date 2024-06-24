@@ -13,3 +13,4 @@ giveMeName(function (name) {
 });
 
 giveMeName(halo);
+giveMeName(halo);
